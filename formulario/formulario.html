@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="formulario.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/594d98509e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="../icons/logo (2).ico">
+  <title>Realiza tu cita AHORA!!!</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img id="imagen-logo" src="logo.png" alt="">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../planes/planes.html">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div id="texto-imagen">
+        <h3>DÉJANOS TUS DATOS PARA <br> CONTACTARTE</h3>
+        <p>Agendar tu cita con nosotros nunca ha podido ser tan fácil, hazlo ahora y te atenderemos. </p>
+      </div>
+      <article id="formulario">
+        <form action="respuesta.php" method="post">
+          <div class="form-row">
+            <div class="col">
+              <label for="">Primer Nombre:</label>
+              <input type="text" class="form-control" name="Nombre1" minlength="3" spellcheck="true" pattern="[A-Z][^A-Z]+" required  >
+              
+            </div>
+            <div class="col">
+              <label for="">Segundo Nombre</label>
+              <input type="text" class="form-control" name="Nombre2" minlength="3" spellcheck="true" pattern="[A-Z][^A-Z]+">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <label for="">Primer Apellido:</label>
+              <input type="text" class="form-control" name="Apellido1" minlength="4" spellcheck="true" pattern="[A-Z][^A-Z]+" required>
+            </div>
+            <div class="col">
+              <label for="">Segundo Apellido</label>
+              <input type="text" class="form-control" name="Apellido2" minlength="4" spellcheck="true" pattern="[A-Z][^A-Z]+">
+            </div>
+          </div>
+          <br>
+          <div class="form-row">
+            <div class="col">
+              <label for="">Telefono:</label>
+              <input type="text" class="form-control" placeholder="+57 3012345678" name="Telefono" minlength="10" required pattern="[0-9]+" required>
+            </div>
+            <div class="col">
+              <label for="">Correo:</label>
+              <input type="email" class="form-control" placeholder="odontologia@ejemplo.com" name="Correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
+            </div>
+          </div>
+          <br>
+          <div class="form-row">
+            <div class="col">
+              <label for="">Fecha De Nacimiento:</label>
+              <input type="date" class="form-control" name="Fecha" required>
+            </div>
+            <div class="col">
+              <label for="">Genero:</label>
+              <select class="form-control" id="exampleFormControlSelect1" name="Genero">
+                <option value="Indefinido">Elegir</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+                <option value="No Especificar">No Especificar</option>
+              </select>
+              <div>
+              </div>
+              <br>
+              <button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </article>
+    </section>
+
+
+    <footer>
+      <div>
+        <strong>Odontologia de Valdez</strong> es una empresa de <strong>Empresas Valdez S.A.S</strong> Todos los derechos reservados.<br>
+        © 2021<br>
+      </div><br>
+      <div>
+        Siguenos en nuestras redes:<br>
+        <br>
+        <a href="https://www.facebook.com/"  ><img src="../icons/fac.jpg" width="30px" height="30px"></a>
+        <a href="https://www.twitter.com/"  ><img src="../icons/twi.png" width="30px" height="30px"></a>
+        <a href="https://www.instagram.com/"  ><img src="../icons/ins.jpg" width="30px" height="30px"></a>
+      </div>
+    </footer>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

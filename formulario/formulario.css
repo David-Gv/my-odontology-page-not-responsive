@@ -1,0 +1,82 @@
+
+
+
+header{
+    height: 90px;
+    margin-bottom: 15px;
+    background-color: white;
+   
+    
+}
+
+section{
+    background-image: linear-gradient(rgba(0, 0, 0, .45) 0%, rgba(0,0,0,.45) 100%), url(fondo.jpg);
+    display: flex;
+    height: 560px;
+    margin-bottom: 30px;
+    justify-content: end;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    height: 170px;
+    margin-bottom: 5px;
+    background-color: rgb(27, 100, 211)
+}
+
+#formulario{
+    border-radius: 10px;
+    background-color: white;
+    width: 550px;
+    height: 470px;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#imagen-logo{
+    height: 70px;
+    padding-right: 65%;
+}
+
+li{
+    padding-right: 20px
+}
+
+
+#texto-imagen{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+h3{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+article{
+    display: flex;
+}
+
+label{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.form-control{
+    margin-left: 15px;
+
+}
+
+input{
+    width: 20;
+    margin-right: 10px;
+}
+
+#enviar{
+    margin-top: 10px;
+    
+}

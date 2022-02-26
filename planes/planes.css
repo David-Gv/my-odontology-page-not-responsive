@@ -1,0 +1,123 @@
+
+header{
+    height: 90px;
+    margin-bottom: 15px;
+    background-color: white;  
+}
+
+
+#imagen-logo{
+    height: 70px;
+    padding-right: 65%;
+}
+
+li{
+    padding-right: 20px
+}
+
+#logo-texto{
+    background-color: ghostwhite;
+    background-image: url(Logo-Planes.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: right;
+    height: 350px;
+}
+
+#h2-texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #08298A;
+    position: relative; left: 60px; top: 35px;
+}
+
+#h3-texto{
+    font-weight: 400;
+    color: #0040FF;
+    position: relative; left: 50px; top: 50px;
+}
+#p-texto{
+    font-weight: 400;
+    color: #0040FF;
+    position: relative; left: 50px; top: 25px;
+}
+
+#container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;   
+}
+
+section{
+    background-color: white;
+    width: 900px;
+    height: 3500px;
+}
+
+#primer-parrafo{
+    color: #0040FF;
+    position: relative; left: 50px; top: 25px;
+}
+
+.p-primer-parrafo{
+    color: #2E2E2E
+}
+
+li{
+    color: gray;
+    font-size: 15px;
+}
+
+#preguntas-rapidas{
+    background-color: #08298A;
+    height: 50px;
+}
+
+a{  
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 60px;
+}
+
+.preguntas{
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul{
+    color: gray;
+}
+
+aside{
+    position: relative; top: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, .45) 0%, rgba(0,0,0,.45) 100%), url(../fondoMain.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    height: 170px;
+    margin-bottom: 5px;
+    background-color: rgb(27, 100, 211)
+}
+
+#texto-aside{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: relative; top: 320px; left: 80px;
+}
+
+#link-aside{
+    position: relative; top: 310px; left: 135px; 
+    ;
+}
