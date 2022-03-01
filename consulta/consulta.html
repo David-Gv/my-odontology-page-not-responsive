@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+</head>
+<body>
+    <h1>Consultar citaciones</h1>
+    <form action="respuesta2.php" method="post">
+        Ingrese el <strong>primer nombre</strong> para consultar:
+        <input type="text" name="Nombre1" minlength="3" spellcheck="true" pattern="[A-Z][^A-Z]+" required><br><br>
+        Ingrese el <strong>primer apellido</strong> pàra consultar:
+        <input type="text" name="Apellido1" minlength="4" spellcheck="true" pattern="[A-Z][^A-Z]+" required><br><br>
+        Ingrese el <strong>email</strong> para consultar:
+        <input type="email" placeholder="odontologia@ejemplo.com" name="Correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required><br>
+        <br>
+        <input type="submit" value="buscar">
+      </form>
+</body>
+</html>

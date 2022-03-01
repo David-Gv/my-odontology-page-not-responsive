@@ -9,8 +9,7 @@
 <body>
 
     <?php
-        $conexion = mysqli_connect("localhost", "root", "", "odontologia") or
-        die("Problemas con la conexión");
+        $conexion = mysqli_connect("localhost", "root", "", "odontologia") or die("Problemas con la conexión");
 
         mysqli_query($conexion, "insert into Citas(PrimerNombre,SegundoNombre,PrimerApellido,SegundoApellido,Telefono,CorreoElectronico,FechaNacimiento,Genero) values
             ('$_REQUEST[Nombre1]','$_REQUEST[Nombre2]','$_REQUEST[Apellido1]','$_REQUEST[Apellido2]',$_REQUEST[Telefono],'$_REQUEST[Correo]','$_REQUEST[Fecha]','$_REQUEST[Genero]')"
