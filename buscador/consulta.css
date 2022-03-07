@@ -1,0 +1,59 @@
+form{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    height: 100px;
+}
+
+header{
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: whitesmoke
+}
+
+
+article{
+    display: flex;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#formulario{
+    text-align: center;
+    width: 55%;
+    justify-items: center;
+    height: 250px;
+    border: solid 1px blue
+}
+
+#respuesta{
+    padding-left: 50px;
+    width: 55%;
+    justify-items: center;
+    height: 500px;
+    border: solid 1px blue
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: rgb(27, 100, 211)
+}
+
+input{
+    width: 10;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+label{
+    margin-top: 10px;
+}
